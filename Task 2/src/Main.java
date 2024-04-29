@@ -10,7 +10,6 @@ public class Main {
         //Методы и их логику продумайте сами
 //        numberInput();
         System.out.println("Введите число: ");
-        System.out.println();
         number = new Scanner(System.in).nextInt();
         System.out.println(number % 2 == 0);
     }
